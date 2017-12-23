@@ -1,0 +1,144 @@
+
+
+
+.primaryColor {
+    background: #f5da55;
+}
+
+.primaryText {
+    color: #f5da55;
+}
+
+
+.secondaryColor {
+    background: #323330;
+}
+
+.secondaryText {
+    color: #323330;
+}
+
+/* Removing border */
+.navbar-dark .navbar-toggler {
+    border: none;
+}
+
+
+/* All of the anchor tag get the secondaryColor theme */
+#navbarSupportedContent > ul > li > a {
+    color: #323330;
+}
+
+/* Restyle the hambuger icon */
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(50, 51, 48, 1)' stroke-width='2' stroke-linecap='square' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+
+  /* Giving the hambuger icon a border */
+  .navbar-light .navbar-toggler {
+    border-color: #323330;
+  }
+
+header {
+ /*    height: 87vh; */
+    height: 100%;
+    background: #323330;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+/* --------- only used in development */
+/* .box {
+    background: green;
+} */
+@media only screen and (max-width: 64em) {
+     /* For mobile phones: */
+    .small-text {
+        font-size: 70px;
+    }
+    .small-paragraph {
+        font-size: 2vmin;
+    }
+    .darkButton {
+        width: 100%;
+    }
+    .image-Mockup {
+        height: 100vh;
+    }
+}
+
+@media only screen and (min-width: 75em)  {
+    .image-Mockup {
+        overflow: hidden;
+    }
+}
+/* @media only screen and (min-width: 600px)  {
+     
+    .darkButton {
+        width: 100%;
+    }
+  
+} */
+/* --------- only used for development */
+/* .news-section {
+    height: 85vh;
+    background: green;
+    overflow: hidden;
+}
+
+.box-red {
+    background:#eee;
+} */
+
+.box-border {
+    border: 2px solid #eee;
+    border-radius: var(--borderRadius);
+}
+.big-paragraph {
+    font-size: 20px;
+}
+.big-heading {
+    font-size: 40px;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.icon-size {
+    font-size: 50px;
+}
+
+.rel-top {
+    position: relative;
+    top:5px;
+}
+
+article {
+    background: #323330;
+}
+
+aside {
+    height: 100vh;
+    background: #f5da55;
+    overflow: hidden;
+}
+.image-Mockup {
+    clip-path: inset(0px 0px 100px 0px);
+    position: relative;
+    top: -5px;
+}
+
+.padding-top-15{
+    padding-top: 15%;
+}
+.padding-top-10{
+    padding-top: 10%;
+}
+.margin-top-15{
+    padding-top: 15%;
+}
+.margin-top-10{
+    padding-top: 10%;
+}
+

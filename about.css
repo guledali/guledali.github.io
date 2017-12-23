@@ -1,0 +1,165 @@
+.primaryColor {
+    background: #f5da55;
+}
+
+.primaryText {
+    color: #f5da55;
+}
+
+
+.secondaryColor {
+    background: #323330;
+}
+
+.secondaryText {
+    color: #323330;
+}
+
+/* Removing border */
+.navbar-dark .navbar-toggler {
+    border: none;
+}
+
+
+/* All of the anchor tag get the secondaryColor theme */
+#navbarSupportedContent > ul > li > a {
+    color: #323330;
+}
+
+/* Restyle the hambuger icon */
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(50, 51, 48, 1)' stroke-width='2' stroke-linecap='square' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+
+  /* Giving the hambuger icon a border */
+  .navbar-light .navbar-toggler {
+    border-color: #323330;
+  }
+
+  header {
+      height: 100%;
+  }
+
+  .size-5 {
+      font-size: 50px;
+  }
+
+  .img-profile {
+      height: 100%;
+  }
+
+  .main-img {
+      height: 100vh;
+      background-image: url("es6.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  }
+
+  .main-box2 {
+    background: #323330;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .main-img2 {
+      height: 100vh;
+      background-image: url("node.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  }
+
+  .main-box {
+    background: #323330;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+
+  @media only screen and (max-width: 64em) {
+    /* For mobile phones: */
+    .main-box {
+        height: 100%;
+    }
+    .main-img {
+        background-position: center; 
+    }
+    .main-img2 {
+        background-position: center; 
+    }
+    .padding-top {
+        padding-top: 0%;
+    }
+    .img-profile {
+        width: 100%;
+    }
+    .main-box2 {
+        height: 100%;
+    }
+    .size-5, .size-4, .size-6 {
+        text-align: center;
+    }
+  /*   .move-left {
+        display: none;
+    } */
+  
+   
+  
+ 
+   
+  
+}
+
+@media only screen and (min-width: 75em)  { 
+ 
+}
+
+.padding-top {
+    padding-top: 5%;
+}
+
+/* .box-border {
+    border: 2px solid #f5da55;
+    border-radius: var(--borderRadius);
+} */
+
+.image-relative {
+    position: relative;
+    top: -25px;
+}
+.size-6 {
+    font-size: 40px;
+    color: #eee;
+    /* margin-left: 10%; */
+    letter-spacing: .07em;
+    white-space: nowrap;
+    
+}
+/* .move-left {
+    margin-left: 35px;
+    letter-spacing: .07em;
+    width: 65%;
+} */
+
+.typewriter  {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid ; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .07em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #f5da55; }
+  }
