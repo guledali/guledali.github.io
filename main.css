@@ -1395,7 +1395,6 @@ button:focus {
 }
 button:active {
     color: var(--secondaryColor);
-/*     background-color: #131312; */
     border-color: #131312;
 }
 
