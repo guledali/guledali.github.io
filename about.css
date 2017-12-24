@@ -83,14 +83,15 @@
     }
     .main-img {
        /*  background: #FFCA17; */
-        background-position: center;
-        background-size: 100vh 100vh;
+      /*  background-size: 100vh 100vh; */
+       max-width: 575px;
+       background-position: center;
 
     }
     .main-img2 {
      /*    background: #FFCA17; */
-        background-position: center;
-        background-size: 100vh 100vh;
+     background-size: 100vh 100vh;
+     /* background-position: center; */
     }
     .padding-top {
         padding-top: 0%;
@@ -116,7 +117,9 @@
 }
 
 @media only screen and (min-width: 75em)  { 
- 
+ .main-img {
+    max-width: 991px;
+ }
 }
 
 .padding-top {
