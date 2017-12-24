@@ -82,17 +82,12 @@
         height: 100%;
     }
     .main-img {
-       /*  background: #FFCA17; */
-      /*  background-size: 100vh 100vh; */
-       max-width: 575px;
-       background-size: cover;
-      /*  background-position: center; */
-
+        background: #FFCA17;
+        background-size: 100vh 100vh;
     }
     .main-img2 {
-     /*    background: #FFCA17; */
-     background-size: 100vh 100vh;
-     /* background-position: center; */
+        background: #FFCA17;
+        background-size: 100vh 100vh;
     }
     .padding-top {
         padding-top: 0%;
@@ -118,9 +113,7 @@
 }
 
 @media only screen and (min-width: 75em)  { 
- .main-img {
-    max-width: 991px;
- }
+
 }
 
 .padding-top {
