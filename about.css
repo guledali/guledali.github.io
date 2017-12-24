@@ -82,12 +82,14 @@
         height: 100%;
     }
     .main-img {
-        background: #FFCA17;
+       /*  background: #FFCA17; */
+        background-position: center;
         background-size: 100vh 100vh;
 
     }
     .main-img2 {
-        background: #FFCA17;
+     /*    background: #FFCA17; */
+        background-position: center;
         background-size: 100vh 100vh;
     }
     .padding-top {
