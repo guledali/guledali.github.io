@@ -82,16 +82,16 @@
         height: 100%;
     }
     .main-img {
-       /*  background-position: center center; */
-      /*   background-size: 100vh 100vh; */
-      height: 100vh;
-      width: 100vh;
+        /* background-position: center center; */
+        background-size: 100vh 100%;
+/*       height: 100vh;
+      width: 100vh; */
     }
     .main-img2 {
        /*  background-position: center center; */
-       /*  background-size: 100vh 100vh; */
-       height: 100vh;
-       width: 100vh;
+        background-size: 100vh 100%;
+/*        height: 100vh;
+       width: 100vh; */
     }
     .padding-top {
         padding-top: 0%;

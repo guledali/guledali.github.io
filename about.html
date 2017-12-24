@@ -204,8 +204,18 @@
     <script>
         new WOW().init();
     </script>
+     <script src="viewport-units-buggyfill.hacks.js"></script>
     <script src="viewport-units-buggyfill.js"></script>
-    <script>window.viewportUnitsBuggyfill.init();</script>
+    <script>window.viewportUnitsBuggyfill.init({
+        hacks: hacks
+    });</script>
+    <script>
+/*             var hacks = require('viewport-units-buggyfill.hacks');
+            require('viewport-units-buggyfill').init({
+                hacks: hacks
+            }); */
+    </script>
+    
 
 
 
