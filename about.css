@@ -68,6 +68,13 @@
       background-repeat: no-repeat;
       background-attachment: fixed;
   }
+  .main-img3 {
+      height: 100vh;
+      background-image: url("goodbye.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  }
 
   .main-box {
     background: #323330;
@@ -86,6 +93,10 @@
         background-size: 100vh 100vh;
     }
     .main-img2 {
+        background: #FFCA17;
+        background-size: 100vh 100vh;
+    }
+    .main-img3 {
         background: #FFCA17;
         background-size: 100vh 100vh;
     }

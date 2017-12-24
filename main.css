@@ -1431,7 +1431,7 @@ a:hover {
     color: var(--secondaryColor);
     text-decoration: none;
     font-family: var(--fontFamily);
-    text-decoration: underline;
+   /*  text-decoration: underline; */
 }
 
 /* ----------------- predefined components end--------------- */
