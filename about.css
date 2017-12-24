@@ -165,3 +165,45 @@
     from, to { border-color: transparent }
     50% { border-color: #f5da55; }
   }
+  
+
+
+  /* ------ fixing an issue with images display text instead of images on small device ------------- */
+
+  /* .display-none {
+    display: none !important;
+  }
+ */
+  @media only screen and (min-width: 48em) {
+    .display-sm-block {
+        display: block !important;
+    }
+}
+
+@media only screen and (min-width: 64em) {
+    .display-md-none {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 75em) {
+    .display-none {
+        display: none !important;
+      }
+}
+
+.darkText {
+    color: #000;
+}
+
+.centering {
+/*     padding-top:  50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+    top: 50%;
+    right: 0%;
+    left: 0%;
+}
