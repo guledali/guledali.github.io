@@ -50,7 +50,6 @@
 
   .main-img {
       height: 100vh;
-      width: 100vh;
       background-image: url("es6.png");
       background-size: cover;
       background-repeat: no-repeat;
