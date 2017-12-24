@@ -82,10 +82,12 @@
         height: 100%;
     }
     .main-img {
-        background-position: center; 
+        background-position: center center;
+        background-size: 100vh 100vh;
     }
     .main-img2 {
-        background-position: center; 
+        background-position: center center;
+        background-size: 100vh 100vh;
     }
     .padding-top {
         padding-top: 0%;
@@ -128,7 +130,7 @@
     top: -25px;
 }
 .size-6 {
-    font-size: 40px;
+    font-size: 35px;
     color: #eee;
     /* margin-left: 10%; */
 /*     letter-spacing: .07em; */
