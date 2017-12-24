@@ -16,8 +16,8 @@
 
 <body>
 
-    <nav role="navigation" class="navbar navbar-expand-lg navbar-light primaryColor">
-        <img src="logo_600.png" width="50" height="50" alt="">
+    <nav class="navbar navbar-expand-lg navbar-light primaryColor">
+        <img src="logo_600.png" width="50" height="50" alt="es6 logo">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
             aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -44,14 +44,14 @@
                 <div class="col-lg-6">
                     <h1 class="size-5 primaryText font-b">About me</h1>
                     <div class="row">
-                    <div class="col-lg-offset-1 col-md-offset-2 col-lg-5">
-                        <h4 class="size-6 primaryText move-left">Guled Abdikarim <span class="primaryText">Ali</span> </h4>
-                    </div>
+                        <div class="col-lg-offset-1 col-md-offset-2 col-lg-5">
+                            <h4 class="size-6 primaryText move-left">Guled Abdikarim <span class="primaryText">Ali</span> </h4>
+                        </div>
                     </div>
                     <h3 class="size-4 primaryText font-l">JavaScript lover </h3>
                 </div>
                 <div class="col-xl-offset-6 col-xl-6 padding-top">
-                    <img class="img-profile" src="man-profile.png" alt="">
+                    <img class="img-profile" src="man-profile.png" alt="man-icon">
                 </div>
 
             </div>
@@ -73,7 +73,7 @@
                         <div class="mtop-2">
 
                             <img class="image-relative width-100 height-100 mtop-3 img-es6 wow slideInLeft" data-wow-duration="2s" data-wow-delay="0.1s"
-                                src="es6.png" alt="">
+                                src="es6.png" alt="handdrawn es6">
                         </div>
                     </div>
                     <div class=".col-md-offset-6 col-md-6 col-sm-12">
@@ -106,7 +106,7 @@
                     <div class="col-md-6 col-sm-12">
                         <div class="mtop-2">
                             <img class="image-relative width-100 height-100 mtop-3 img-es6 wow slideInLeft" data-wow-duration="2s" data-wow-delay="0.1s"
-                                src="node.png" alt="">
+                                src="node.png" alt="handdrawn-node">
                         </div>
                     </div>
                     <div class=".col-md-offset-6 col-md-6 col-sm-12">
@@ -114,9 +114,9 @@
                             <p class="primaryText big-paragraph text-c">My second mistress, miss node!</p>
                         </div>
                         <div class="p-3 mtop-2 text-white  wow slideInRight" data-wow-duration="2s" data-wow-delay="0.1s">
-                            <p class="font-l primaryText big-paragraph mtop-1">Node js has always had my intresent, two reasons it's written in JavaScript whit is the a big
+                            <p class="font-l primaryText big-paragraph mtop-1">Node js has always had my intresent, two reasons it's written in JavaScript which is a big
                                 reason. I no longer need know two languages like javascript and php one for client side and
-                                the other for server side I can do that all in JavaScript. <span class="font-b"> Node JS, </span>                                Ryan Dahl gift to mankind a brough the game to a hole new level</p>
+                                the other for server side I can do that all in JavaScript. <span class="font-b"> Node JS, </span>                                Ryan Dahl gift to mankind a brough the game to a whole new level</p>
                         </div>
                     </div>
                 </div>
@@ -140,67 +140,37 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
         crossorigin="anonymous"></script>
-                  <script>
-                    document.addEventListener('DOMContentLoaded', () => {
-                      const scroller = new SweetScroll({
-                        trigger: '[data-scroll]',       // Selector for trigger (must be a valid css selector)
-                        header: '[data-scroll-header]', // Selector or Element for fixed header (Selector of must be a valid css selector)
-                        duration: 1000,                 // Specifies animation duration in integer
-                        easing: 'easeInOutCubic',         // Specifies the pattern of easing
-                        offset: 0,                      // Specifies the value to offset the scroll position in pixels
-                        vertical: true,                 // Enable the vertical scroll
-                        horizontal: false,              // Enable the horizontal scroll
-                        cancellable: true,              // When fired wheel or touchstart events to stop scrolling
-                        updateURL: false,               // Update the URL hash on after scroll (true | false | 'push' | 'replace')
-                        preventDefault: true,           // Cancels the container element click event
-                        stopPropagation: true,          // Prevents further propagation of the container element click event in the bubbling phase
-                        quickMode: false,               // Instantly scroll to the destination! (It's recommended to use it with `easeOutExpo`)
-              
-                        // Callbacks
-                        before: null,
-                        after: null,
-                        cancel: null,
-                        complete: null,
-                        step: null,
-                      });
-                    }, false);
-                  </script>
-              
-    <!--                <script>
-               const backGroundImage = document.queryselector('#section-animate');
-               const animateCover = document.querySelector('#animation-image');
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const scroller = new SweetScroll({
+                trigger: '[data-scroll]',       // Selector for trigger (must be a valid css selector)
+                header: '[data-scroll-header]', // Selector or Element for fixed header (Selector of must be a valid css selector)
+                duration: 1000,                 // Specifies animation duration in integer
+                easing: 'easeInOutCubic',         // Specifies the pattern of easing
+                offset: 0,                      // Specifies the value to offset the scroll position in pixels
+                vertical: true,                 // Enable the vertical scroll
+                horizontal: false,              // Enable the horizontal scroll
+                cancellable: true,              // When fired wheel or touchstart events to stop scrolling
+                updateURL: false,               // Update the URL hash on after scroll (true | false | 'push' | 'replace')
+                preventDefault: true,           // Cancels the container element click event
+                stopPropagation: true,          // Prevents further propagation of the container element click event in the bubbling phase
+                quickMode: false,               // Instantly scroll to the destination! (It's recommended to use it with `easeOutExpo`)
 
-               const height = backGroundImage.window.innerHeight;
-               const width = backGroundImage.clientWidth;
+                // Callbacks
+                before: null,
+                after: null,
+                cancel: null,
+                complete: null,
+                step: null,
+            });
+        }, false);
+    </script>
 
-               if( height ==  "100vh" ) {
-                   animateCover.classList.add("animated slideInLeft");
-               }
-               </script> -->
+
     <script src="wow.js"></script>
     <script>
         new WOW().init();
     </script>
-<!--      <script src="viewport-units-buggyfill.hacks.js"></script> -->
-<!--      <script src="viewport-units-buggyfill.js"></script>
-     <script>window.viewportUnitsBuggyfill.init();</script> -->
-<!--     <script>window.viewportUnitsBuggyfill.init({
-    // ignore browser capability, run this puppy everywhere
-    force: true,
-    // milliseconds to delay between updates of viewport-units
-    // caused by orientationchange, pageshow, resize events
-    refreshDebounceWait: 250,
-    hacks: window.viewportUnitsBuggyfillHacks,
-		// append to body
-		appendToBody: true
-  });</script> -->
-<!--   <script src="tokenizer.js"></script>
-  <script src="parser.js"></script>
-  <script src="vminpoly.js"></script> -->
- 
-    
-
-
 
 </body>
 
