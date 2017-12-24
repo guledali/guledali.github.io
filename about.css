@@ -85,7 +85,8 @@
        /*  background: #FFCA17; */
       /*  background-size: 100vh 100vh; */
        max-width: 575px;
-       background-position: center;
+       background-size: cover;
+      /*  background-position: center; */
 
     }
     .main-img2 {
