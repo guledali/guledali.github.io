@@ -207,14 +207,16 @@
      <script src="viewport-units-buggyfill.hacks.js"></script>
     <script src="viewport-units-buggyfill.js"></script>
     <script>window.viewportUnitsBuggyfill.init({
-        hacks: hacks
-    });</script>
-    <script>
-/*             var hacks = require('viewport-units-buggyfill.hacks');
-            require('viewport-units-buggyfill').init({
-                hacks: hacks
-            }); */
-    </script>
+    // ignore browser capability, run this puppy everywhere
+    force: true,
+    // milliseconds to delay between updates of viewport-units
+    // caused by orientationchange, pageshow, resize events
+    refreshDebounceWait: 250,
+    hacks: window.viewportUnitsBuggyfillHacks,
+		// append to body
+		appendToBody: true
+  });</script>
+ 
     
 
 
