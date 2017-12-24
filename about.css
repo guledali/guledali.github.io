@@ -184,6 +184,9 @@
     .display-md-none {
         display: none !important;
     }
+    .display-md-block {
+        display: block !important;
+    }
 }
 
 @media only screen and (min-width: 75em) {
