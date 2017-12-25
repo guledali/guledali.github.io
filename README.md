@@ -1,4 +1,4 @@
-# Project Codename : ip (individuella projekt.)
+# Project Codename : ip (Individuella projekt.)
 A project than I have been doing for a week now indented for school project but hopefully it grow and maybe one day stand on it's own legs.
 
 ## Getting Started
