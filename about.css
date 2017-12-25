@@ -110,9 +110,6 @@
     .size-5, .size-4, .size-6 {
         text-align: center;
     }
-    .size-6, .span-text {
-        white-space: normal;
-    }
   
 }
 
@@ -129,7 +126,7 @@
     top: -25px;
 }
 .size-6 {
-    font-size: 35px;
+    font-size: 30px;
     color: #eee;
     white-space: nowrap;    
 }
