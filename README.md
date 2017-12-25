@@ -25,7 +25,7 @@ If you see a bug please report it by filing an issue
 
 :ip:Development-information:
 
-<br> Github -  guledali.github.io
+<br> Github -  https://guledali.github.io/
 
 
 
