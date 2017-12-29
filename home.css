@@ -210,6 +210,18 @@ aside {
   }
   
   @media (min-width: 768px) {
+    .navbar {
+        padding: 0rem;
+    }
+    .logo-mobile {
+        margin-left: 1rem;
+    }
+    .text-mobile {
+        padding-left: 1rem !important;
+    }
+    .navbar-toggler {
+        margin-top: .5rem;
+    }
     .navbar-expand-md {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
