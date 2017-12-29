@@ -143,6 +143,9 @@ aside {
     .text-mobile {
         padding-left: 1rem !important;
     }
+    .navbar-toggler {
+        margin-top: .5rem;
+    }
     .navbar-expand-sm > .container,
     .navbar-expand-sm > .container-fluid {
       padding-right: 0;
