@@ -334,6 +334,10 @@ aside {
     .navbar-nav {
         margin-left: 15px;
     }
+    .text-mobile {
+        padding-left: .75rem !important;
+        padding-right: .75rem !important;
+    }
   }
   
   @media (max-width: 1199.99px) {
