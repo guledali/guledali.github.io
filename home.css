@@ -323,6 +323,17 @@ aside {
       top: auto;
       bottom: 100%;
     }
+    .nav-link {
+        display: initial;
+        padding:  1rem;
+    }
+    .padding-30 {
+        padding-top: 30% !important;
+        padding-bottom: 30% !;
+    }
+    .navbar-nav {
+        margin-left: 15px;
+    }
   }
   
   @media (max-width: 1199.99px) {
