@@ -19,6 +19,7 @@ must be based on symmetrical shapes<br>
 the fill and linetyp should have same color<br>
 If it's a geometric object, stroke-linecap should be set to square<br>
 If it's a organic shape people stroke-linecap should be set to round<br>
+The most important rule of all flat illustration means no perspective or distortion<br>
 
 Theme color<br>
 Always yellow =  #f5da55;<br>
