@@ -12,6 +12,24 @@ Currently I have only been doing design related stuff so I have used a lot http:
 ### Style guidelines on visual page:
 This is important so I have tried a lot to make it look javascript centric, than means I have to follow a certain color palette to achieve this or evoke this feeling. You can find the color scheme in main.css
 
+### Rules regarding illustration:
+In the index.html the news section you may find illustration hopefully it will be more, all of the illustration should follow these rules:
+height and width should atleast 300x600px
+must be based on symmetrical shapes
+the fill and linetyp should have same color
+If it's a geometric object, stroke-linecap should be set to square
+If it's a organic shape people stroke-linecap should be set to round
+
+Theme color
+Always yellow =  #f5da55;
+Always black =   #323330;
+
+An example on how illustration should look like
+
+![](flat.jpg)
+
+
+
 ### Layout on the pages:
 A column based grid as been my preferred layout method at times I have used flexbox to center things which is okay!
 
