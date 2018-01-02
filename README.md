@@ -15,7 +15,7 @@ This is important so I have tried a lot to make it look javascript centric, than
 ### Rules regarding illustration:
 In the index.html the news section you may find illustration hopefully it will be more, all of the illustration should follow these rules:<br>
 height and width should atleast 300x600px<br>
-must be based on symmetrical shapes<br>
+must be based on symmetrical or boolean shapes<br>
 the fill and linetyp should have same color<br>
 If it's a geometric object, stroke-linecap should be set to square<br>
 If it's a organic shape people stroke-linecap should be set to round<br>
